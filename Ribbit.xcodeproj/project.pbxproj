@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CED5EFA5185120FF00B2550B /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5EFA4185120FF00B2550B /* InboxViewController.m */; };
 		CEF3D0DF18296BEB00CB4B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0DE18296BEB00CB4B1B /* Foundation.framework */; };
 		CEF3D0E118296BEB00CB4B1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0E018296BEB00CB4B1B /* CoreGraphics.framework */; };
 		CEF3D0E318296BEB00CB4B1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0E218296BEB00CB4B1B /* UIKit.framework */; };
@@ -19,6 +20,13 @@
 		CEF3D0FA18296BEB00CB4B1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0E218296BEB00CB4B1B /* UIKit.framework */; };
 		CEF3D10218296BEB00CB4B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D10018296BEB00CB4B1B /* InfoPlist.strings */; };
 		CEF3D10418296BEB00CB4B1B /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF3D10318296BEB00CB4B1B /* RibbitTests.m */; };
+		CEF3D10E18296C1C00CB4B1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D10D18296C1C00CB4B1B /* MainStoryboard.storyboard */; };
+		CEF3D11518296EC600CB4B1B /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D10F18296EC600CB4B1B /* camera.png */; };
+		CEF3D11618296EC600CB4B1B /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D11018296EC600CB4B1B /* camera@2x.png */; };
+		CEF3D11718296EC600CB4B1B /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D11118296EC600CB4B1B /* friends.png */; };
+		CEF3D11818296EC600CB4B1B /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D11218296EC600CB4B1B /* friends@2x.png */; };
+		CEF3D11918296EC600CB4B1B /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D11318296EC600CB4B1B /* inbox.png */; };
+		CEF3D11A18296EC600CB4B1B /* inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3D11418296EC600CB4B1B /* inbox@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CED5EFA3185120FF00B2550B /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		CED5EFA4185120FF00B2550B /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
 		CEF3D0DB18296BEB00CB4B1B /* Ribbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3D0DE18296BEB00CB4B1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEF3D0E018296BEB00CB4B1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,13 @@
 		CEF3D0FF18296BEB00CB4B1B /* RibbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RibbitTests-Info.plist"; sourceTree = "<group>"; };
 		CEF3D10118296BEB00CB4B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEF3D10318296BEB00CB4B1B /* RibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitTests.m; sourceTree = "<group>"; };
+		CEF3D10D18296C1C00CB4B1B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEF3D10F18296EC600CB4B1B /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		CEF3D11018296EC600CB4B1B /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		CEF3D11118296EC600CB4B1B /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		CEF3D11218296EC600CB4B1B /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
+		CEF3D11318296EC600CB4B1B /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		CEF3D11418296EC600CB4B1B /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +94,7 @@
 		CEF3D0D218296BEB00CB4B1B = {
 			isa = PBXGroup;
 			children = (
+				CEF3D11B18296ECE00CB4B1B /* Images */,
 				CEF3D0E418296BEB00CB4B1B /* Ribbit */,
 				CEF3D0FD18296BEB00CB4B1B /* RibbitTests */,
 				CEF3D0DD18296BEB00CB4B1B /* Frameworks */,
@@ -109,6 +127,9 @@
 			children = (
 				CEF3D0ED18296BEB00CB4B1B /* AppDelegate.h */,
 				CEF3D0EE18296BEB00CB4B1B /* AppDelegate.m */,
+				CEF3D10D18296C1C00CB4B1B /* MainStoryboard.storyboard */,
+				CED5EFA3185120FF00B2550B /* InboxViewController.h */,
+				CED5EFA4185120FF00B2550B /* InboxViewController.m */,
 				CEF3D0F018296BEB00CB4B1B /* Images.xcassets */,
 				CEF3D0E518296BEB00CB4B1B /* Supporting Files */,
 			);
@@ -142,6 +163,19 @@
 				CEF3D10018296BEB00CB4B1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF3D11B18296ECE00CB4B1B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEF3D10F18296EC600CB4B1B /* camera.png */,
+				CEF3D11018296EC600CB4B1B /* camera@2x.png */,
+				CEF3D11118296EC600CB4B1B /* friends.png */,
+				CEF3D11218296EC600CB4B1B /* friends@2x.png */,
+				CEF3D11318296EC600CB4B1B /* inbox.png */,
+				CEF3D11418296EC600CB4B1B /* inbox@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF3D10E18296C1C00CB4B1B /* MainStoryboard.storyboard in Resources */,
+				CEF3D11718296EC600CB4B1B /* friends.png in Resources */,
+				CEF3D11818296EC600CB4B1B /* friends@2x.png in Resources */,
+				CEF3D11618296EC600CB4B1B /* camera@2x.png in Resources */,
+				CEF3D11918296EC600CB4B1B /* inbox.png in Resources */,
 				CEF3D0E918296BEB00CB4B1B /* InfoPlist.strings in Resources */,
+				CEF3D11518296EC600CB4B1B /* camera.png in Resources */,
 				CEF3D0F118296BEB00CB4B1B /* Images.xcassets in Resources */,
+				CEF3D11A18296EC600CB4B1B /* inbox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +282,7 @@
 			files = (
 				CEF3D0EF18296BEB00CB4B1B /* AppDelegate.m in Sources */,
 				CEF3D0EB18296BEB00CB4B1B /* main.m in Sources */,
+				CED5EFA5185120FF00B2550B /* InboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +483,7 @@
 				CEF3D10918296BEB00CB4B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEF3D10A18296BEB00CB4B1B /* Build configuration list for PBXNativeTarget "RibbitTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +492,7 @@
 				CEF3D10C18296BEB00CB4B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
