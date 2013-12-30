@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CED5EFA5185120FF00B2550B /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5EFA4185120FF00B2550B /* InboxViewController.m */; };
+		CEE237761871E13D00214CC1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE237751871E13D00214CC1 /* Parse.framework */; };
+		CEE237801871E25200214CC1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE237771871E25200214CC1 /* AudioToolbox.framework */; };
+		CEE237811871E25200214CC1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE237781871E25200214CC1 /* CFNetwork.framework */; };
+		CEE237821871E25200214CC1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE237791871E25200214CC1 /* CoreLocation.framework */; };
+		CEE237831871E25200214CC1 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2377A1871E25200214CC1 /* libz.1.1.3.dylib */; };
+		CEE237841871E25200214CC1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2377B1871E25200214CC1 /* MobileCoreServices.framework */; };
+		CEE237851871E25200214CC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2377C1871E25200214CC1 /* QuartzCore.framework */; };
+		CEE237861871E25200214CC1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2377D1871E25200214CC1 /* Security.framework */; };
+		CEE237871871E25200214CC1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2377E1871E25200214CC1 /* StoreKit.framework */; };
+		CEE237881871E25200214CC1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE2377F1871E25200214CC1 /* SystemConfiguration.framework */; };
+		CEE2378B1871ED9000214CC1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2378A1871ED9000214CC1 /* LoginViewController.m */; };
+		CEE2378E1871EDA800214CC1 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2378D1871EDA800214CC1 /* SignupViewController.m */; };
 		CEF3D0DF18296BEB00CB4B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0DE18296BEB00CB4B1B /* Foundation.framework */; };
 		CEF3D0E118296BEB00CB4B1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0E018296BEB00CB4B1B /* CoreGraphics.framework */; };
 		CEF3D0E318296BEB00CB4B1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF3D0E218296BEB00CB4B1B /* UIKit.framework */; };
@@ -42,6 +54,20 @@
 /* Begin PBXFileReference section */
 		CED5EFA3185120FF00B2550B /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
 		CED5EFA4185120FF00B2550B /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		CEE237751871E13D00214CC1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CEE237771871E25200214CC1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEE237781871E25200214CC1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CEE237791871E25200214CC1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEE2377A1871E25200214CC1 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		CEE2377B1871E25200214CC1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CEE2377C1871E25200214CC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEE2377D1871E25200214CC1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEE2377E1871E25200214CC1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CEE2377F1871E25200214CC1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEE237891871ED9000214CC1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CEE2378A1871ED9000214CC1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CEE2378C1871EDA800214CC1 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		CEE2378D1871EDA800214CC1 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		CEF3D0DB18296BEB00CB4B1B /* Ribbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3D0DE18296BEB00CB4B1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEF3D0E018296BEB00CB4B1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,8 +98,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE237801871E25200214CC1 /* AudioToolbox.framework in Frameworks */,
+				CEE237811871E25200214CC1 /* CFNetwork.framework in Frameworks */,
+				CEE237821871E25200214CC1 /* CoreLocation.framework in Frameworks */,
+				CEE237831871E25200214CC1 /* libz.1.1.3.dylib in Frameworks */,
+				CEE237841871E25200214CC1 /* MobileCoreServices.framework in Frameworks */,
+				CEE237851871E25200214CC1 /* QuartzCore.framework in Frameworks */,
+				CEE237861871E25200214CC1 /* Security.framework in Frameworks */,
+				CEE237871871E25200214CC1 /* StoreKit.framework in Frameworks */,
+				CEE237881871E25200214CC1 /* SystemConfiguration.framework in Frameworks */,
 				CEF3D0E118296BEB00CB4B1B /* CoreGraphics.framework in Frameworks */,
 				CEF3D0E318296BEB00CB4B1B /* UIKit.framework in Frameworks */,
+				CEE237761871E13D00214CC1 /* Parse.framework in Frameworks */,
 				CEF3D0DF18296BEB00CB4B1B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +150,16 @@
 		CEF3D0DD18296BEB00CB4B1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEE237771871E25200214CC1 /* AudioToolbox.framework */,
+				CEE237781871E25200214CC1 /* CFNetwork.framework */,
+				CEE237791871E25200214CC1 /* CoreLocation.framework */,
+				CEE2377A1871E25200214CC1 /* libz.1.1.3.dylib */,
+				CEE2377B1871E25200214CC1 /* MobileCoreServices.framework */,
+				CEE2377C1871E25200214CC1 /* QuartzCore.framework */,
+				CEE2377D1871E25200214CC1 /* Security.framework */,
+				CEE2377E1871E25200214CC1 /* StoreKit.framework */,
+				CEE2377F1871E25200214CC1 /* SystemConfiguration.framework */,
+				CEE237751871E13D00214CC1 /* Parse.framework */,
 				CEF3D0DE18296BEB00CB4B1B /* Foundation.framework */,
 				CEF3D0E018296BEB00CB4B1B /* CoreGraphics.framework */,
 				CEF3D0E218296BEB00CB4B1B /* UIKit.framework */,
@@ -128,6 +174,10 @@
 				CEF3D0ED18296BEB00CB4B1B /* AppDelegate.h */,
 				CEF3D0EE18296BEB00CB4B1B /* AppDelegate.m */,
 				CEF3D10D18296C1C00CB4B1B /* MainStoryboard.storyboard */,
+				CEE237891871ED9000214CC1 /* LoginViewController.h */,
+				CEE2378A1871ED9000214CC1 /* LoginViewController.m */,
+				CEE2378C1871EDA800214CC1 /* SignupViewController.h */,
+				CEE2378D1871EDA800214CC1 /* SignupViewController.m */,
 				CED5EFA3185120FF00B2550B /* InboxViewController.h */,
 				CED5EFA4185120FF00B2550B /* InboxViewController.m */,
 				CEF3D0F018296BEB00CB4B1B /* Images.xcassets */,
@@ -280,9 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE2378B1871ED9000214CC1 /* LoginViewController.m in Sources */,
 				CEF3D0EF18296BEB00CB4B1B /* AppDelegate.m in Sources */,
 				CEF3D0EB18296BEB00CB4B1B /* main.m in Sources */,
 				CED5EFA5185120FF00B2550B /* InboxViewController.m in Sources */,
+				CEE2378E1871EDA800214CC1 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +453,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ekirschenbaum/Desktop/Ribbit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
 				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
@@ -414,6 +470,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ekirschenbaum/Desktop/Ribbit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
 				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";

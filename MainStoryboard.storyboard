@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="KNM-N3-FV4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="KNM-N3-FV4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="1073" y="-613"/>
         </scene>
-        <!--View Controller - Ribbit-->
+        <!--Login View Controller - Ribbit-->
         <scene sceneID="0fY-i5-pWF">
             <objects>
-                <viewController id="FdJ-hA-L1b" sceneMemberID="viewController">
+                <viewController id="FdJ-hA-L1b" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gPB-Ge-xWN"/>
                         <viewControllerLayoutGuide type="bottom" id="N6e-Jo-O9T"/>
@@ -173,10 +173,10 @@
             </objects>
             <point key="canvasLocation" x="1073" y="768"/>
         </scene>
-        <!--View Controller - Ribbit-->
+        <!--Signup View Controller - Ribbit-->
         <scene sceneID="ZNg-la-8YW">
             <objects>
-                <viewController id="E1S-q7-spX" sceneMemberID="viewController">
+                <viewController id="E1S-q7-spX" customClass="SignupViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xTJ-e3-gEv"/>
                         <viewControllerLayoutGuide type="bottom" id="6Bh-fO-ocw"/>
@@ -203,6 +203,9 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signup:" destination="E1S-q7-spX" eventType="touchUpInside" id="nj1-sO-0re"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUf-46-5KP">
                                 <rect key="frame" x="20" y="205" width="0.0" height="0.0"/>
@@ -221,6 +224,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ribbit" id="hIw-iC-wPf"/>
+                    <connections>
+                        <outlet property="emailField" destination="H7t-eg-BmV" id="xot-Iy-fv3"/>
+                        <outlet property="passwordField" destination="uBB-vX-GXR" id="e4T-9s-pz7"/>
+                        <outlet property="usernameField" destination="9Cm-4h-BPv" id="2s4-n3-5bI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gX8-H3-jo0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
